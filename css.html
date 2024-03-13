@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feira BDS </title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #22b8f3; 
+            color: #333;
+        }
+        header {
+            background-color: #00ced1;
+            color: rgb(38, 110, 122);
+            padding: 10px;
+            text-align: center;
+        }
+        nav {
+            background-color: #add8e6; 
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            text-decoration: none;
+            margin-right: 20px;
+            color: #333;
+        }
+        nav a:hover {
+            color: #00ced1; 
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        .fruta {
+            margin-bottom: 20px;
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        th {
+            background-color: #00ced1; 
+            color: white;
+        }
+        img {
+            max-width: 100px;
+            height: auto;
+            display: block;
+            margin: auto;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>BEM VINDOS</h1>
+        <h2>FEIRA BDS</h2>
+    </header>
+    <nav>
+        <a href="#banana">Banana</a>
+        <a href="#mamao">Mamão</a>
+        <a href="#abacaxi">Abacaxi</a>
+        <a href="#maca">Maçã</a>
+        <a href="#morango">Morango</a>
+        <a href="#manga">Manga</a>
+    </nav>
+    <div class="container">
+        <div id="banana" class="fruta">
+            <h2>Banana</h2>
+            <p>A banana é uma fruta alongada e de casca amarela quando madura.</p>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Banana-Single.jpg/150px-Banana-Single.jpg" alt="Banana">
+        </div>
+        <div id="mamao" class="fruta">
+            <h2>Mamão</h2>
+            <p>O mamão é uma fruta tropical de cor laranja ou verde, com uma polpa doce e macia.</p>
+            <img src="https://img.freepik.com/vetores-gratis/vetor-de-frutas-fatiadas-de-mamao-isolado-realista-maduras-exoticas-de-verao_1268-18103.jpg" alt="Mamão">
+        </div>
+        <div id="abacaxi" class="fruta">
+            <h2>Abacaxi</h2>
+            <p>O abacaxi é uma fruta tropical com casca espinhosa e polpa amarela e suculenta.</p>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Pineapple_and_cross_section.jpg/150px-Pineapple_and_cross_section.jpg" alt="Abacaxi">
+        </div>
+        <div id="maca" class="fruta">
+            <h2>Maçã</h2>
+            <p>A maçã é uma fruta pomácea comestível produzida pela macieira.</p>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Red_Apple.jpg/150px-Red_Apple.jpg" alt="Maçã">
+        </div>
+        <div id="morango" class="fruta">
+            <h2>Morango</h2>
+            <p>O morango é uma pequena fruta vermelha, doce e suculenta.</p>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/PerfectStrawberry.jpg/150px-PerfectStrawberry.jpg" alt="Morango">
+        </div>
+        <div id="manga" class="fruta">
+            <h2>Manga</h2>
+            <p>A manga é uma fruta tropical de cor laranja ou amarela e polpa suculenta.</p>
+            <img src="https://static.mundoeducacao.uol.com.br/mundoeducacao/2021/05/manga.jpg" alt="Manga">
+        </div>
+
+        <h2>Tabela de Preços Sugeridos</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Fruta</th>
+                    <th>Preço(por kg)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Banana</td>
+                    <td>R$ 8,50</td>
+                </tr>
+                <tr>
+                    <td>Mamão</td>
+                    <td>R$ 9,00</td>
+                </tr>
+                <tr>
+                    <td>Abacaxi</td>
+                    <td>R$ 9,89</td>
+                </tr>
+                <tr>
+                    <td>Maçã</td>
+                    <td>R$ 7,50</td>
+                </tr>
+                <tr>
+                    <td>Morango</td>
+                    <td>R$ 21,00</td>
+                </tr>
+                <tr>
+                    <td>Manga</td>
+                    <td>R$ 24,00</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #25939b;
+            color: #333;
+        }
+        .container {
+            max-width: 400px;
+            margin: auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        input[type="text"], input[type="email"] {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Cadastro Básico</h2>
+        <form action="#" method="post">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+            
+            <label for="cpf">CPF:</label>
+            <input type="text" id="cpf" name="cpf" pattern="\d{3}\.\d{3}\.\d{3}-\d{2}" placeholder="123.456.789-00" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <input type="submit" value="Cadastrar">
+        </form>
+    </div>
+
+</body>
+</html>
